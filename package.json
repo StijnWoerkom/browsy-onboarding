@@ -1,0 +1,36 @@
+{
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "next": "latest",
+    "next-i18next": "^8.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "@types/node": "^12.12.21",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "autoprefixer": "9",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "postcss": "7",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "typescript": "4.0"
+  },
+  "license": "MIT"
+}
