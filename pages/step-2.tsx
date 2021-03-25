@@ -10,7 +10,7 @@ const Step2 = (): JSX.Element => {
   const { t } = useTranslation("common");
 
   return (
-    <Layout title={t("step1_title")}>
+    <Layout title={t("step2_title")}>
       <div className="browsy-app-content col-start-1 md:col-start-2 col-span-1 md:col-span-2">
         <div
           className="shadow-lg flex flex-col items-center text-center bg-white rounded bg-opacity-100 px-16"
@@ -18,10 +18,10 @@ const Step2 = (): JSX.Element => {
         >
           <img className="mt-16" src="/images/step-2.png" />
           <p className="mt-6 font-heading font-bold text-darkblue_6 text-3xl">
-            {t("step1_title")}
+            {t("step2_title")}
           </p>
           <p className="mt-6 font-body text-darkblue_5 text-base">
-            {t("step1_description")}
+            {t("step2_description")}
           </p>
           <Link href="/step-3">
             <button

@@ -37,9 +37,11 @@ module.exports = {
         darkblue_8: "#052B38",
         darkblue_9: "#04242F",
         darkblue_10: "#031D25",
-        // Custome
+        // Custom
         fb_blue: "#3b5999",
         email_red: "#da493e",
+        pink_6: "#EF476F",
+        blue_6: "#19AFD0",
       },
     },
     fontFamily: {
