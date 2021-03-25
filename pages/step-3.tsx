@@ -2,6 +2,7 @@
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { GetStaticProps } from "next";
+import Link from "next/link";
 
 import Layout from "../components/Layout";
 
@@ -12,22 +13,24 @@ const Step3 = (): JSX.Element => {
     <Layout title={t("step1_title")}>
       <div className="browsy-app-content col-start-1 md:col-start-2 col-span-1 md:col-span-2">
         <div
-          className="shadow-lg flex flex-col items-center text-center bg-white rounded bg-opacity-100"
+          className="shadow-lg flex flex-col items-center text-center bg-white rounded bg-opacity-100 px-16"
           id="step-3-content"
         >
-          <img src="/images/step-3.png" />
-          <p className="font-heading font-bold text-darkblue_6 text-3xl">
+          <img className="mt-16" src="/images/step-3.png" />
+          <p className="mt-6 font-heading font-bold text-darkblue_6 text-3xl">
             {t("step1_title")}
           </p>
-          <p className="font-body text-darkblue_5 text-base">
+          <p className="mt-6 font-body text-darkblue_5 text-base">
             {t("step1_description")}
           </p>
-          <button
-            type="button"
-            className="inline-flex font-heading items-center px-5 py-2 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-green_6 hover:bg-green_7 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green_5"
-          >
-            {t("step1_btn")}
-          </button>
+          <Link href="/step-4">
+            <button
+              type="button"
+              className="mt-12 mb-16 inline-flex font-heading items-center px-5 py-2 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-green_6 hover:bg-green_7 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green_5"
+            >
+              {t("step1_btn")}
+            </button>
+          </Link>
         </div>
       </div>
     </Layout>
