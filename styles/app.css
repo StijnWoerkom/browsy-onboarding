@@ -73,3 +73,16 @@
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
 }
+
+#share-fb-btn {
+  background-image: url(/images/fb-round-btn.png);
+}
+#share-ig-btn {
+  background-image: url(/images/icon-insta.png);
+}
+#share-whatsapp-btn {
+  background-image: url(/images/whatsapp-round-btn.png);
+}
+#share-twitter-btn {
+  background-image: url(/images/twitter-round-btn.png);
+}

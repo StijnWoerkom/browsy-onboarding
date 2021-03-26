@@ -24,85 +24,25 @@ const Step6 = (): JSX.Element => {
           </p>
           <div className="flex mt-5 mb-5">
             <button
+              id="share-fb-btn"
               type="button"
-              className="inline-flex items-center p-3 mx-2 border border-transparent rounded-full shadow-sm text-white bg-darkblue_4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-darkblue_4"
-            >
-              <svg
-                className="h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                />
-              </svg>
-            </button>
+              className="w-12 h-12 bg-no-repeat bg-center inline-flex items-center p-3 mx-2 border border-transparent rounded-full shadow-sm text-white bg-darkblue_4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-darkblue_4"
+            />
             <button
+              id="share-ig-btn"
               type="button"
-              className="inline-flex items-center p-3 mx-2 border border-transparent rounded-full shadow-sm text-white bg-pink_6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink_6"
-            >
-              <svg
-                className="h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                />
-              </svg>
-            </button>
+              className="w-12 h-12 bg-no-repeat bg-center inline-flex items-center p-3 mx-2 border border-transparent rounded-full shadow-sm text-white bg-pink_6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink_6"
+            />
             <button
+              id="share-whatsapp-btn"
               type="button"
-              className="inline-flex items-center p-3 mx-2 border border-transparent rounded-full shadow-sm text-white bg-green_6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green_6"
-            >
-              <svg
-                className="h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                />
-              </svg>
-            </button>
+              className="w-12 h-12 bg-no-repeat bg-center inline-flex items-center p-3 mx-2 border border-transparent rounded-full shadow-sm text-white bg-green_6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green_6"
+            />
             <button
+              id="share-twitter-btn"
               type="button"
-              className="inline-flex items-center p-3 mx-2 border border-transparent rounded-full shadow-sm text-white bg-blue_6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue_6"
-            >
-              <svg
-                className="h-6 w-6"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                />
-              </svg>
-            </button>
+              className="w-12 h-12 bg-no-repeat bg-center inline-flex items-center p-3 mx-2 border border-transparent rounded-full shadow-sm text-white bg-blue_6 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue_6"
+            />
           </div>
           <div className="w-4/5">
             <div className="mt-1 mb-8 flex rounded-md shadow-sm">
